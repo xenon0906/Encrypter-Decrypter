@@ -6,7 +6,7 @@ import os
 def decrypt():
     password = code.get()
 
-    if password == "1234":
+    if password == "6969":
         screen2 = Toplevel(screen)
         screen2.title("Decryption")
         screen2.geometry("400x200")
@@ -26,13 +26,13 @@ def decrypt():
     elif password == "":
         messagebox.showerror("Decryption", "Input Password")
 
-    elif password != "1234":
+    elif password != "6969":
         messagebox.showerror("Decryption", "Invalid Password")
         
 def encrypt():
     password = code.get()
 
-    if password == "1234":
+    if password == "6969":
         screen1 = Toplevel(screen)
         screen1.title("Encryption")
         screen1.geometry("400x200")
@@ -52,7 +52,7 @@ def encrypt():
     elif password == "":
         messagebox.showerror("encryption", "Input Password")
 
-    elif password != "1234":
+    elif password != "6969":
         messagebox.showerror("encryption", "Invalid Password")
 
 def main_screen():
