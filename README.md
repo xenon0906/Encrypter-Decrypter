@@ -19,7 +19,7 @@ This project is a simple Text Encryption and Decryption tool built using Python'
    - The user is prompted to enter a secret key, which is required for both encryption and decryption.
 
 2. **Encryption**:
-   - When the user enters text and the correct secret key (default: `1234`), the text is converted into a Base64 encoded string.
+   - When the user enters text and the correct secret key (default: `6969`), the text is converted into a Base64 encoded string.
    - The encoded text is displayed in a new window labeled "ENCRYPT".
 
 3. **Decryption**:
@@ -64,12 +64,12 @@ import os
 
 2. **Encrypting Text**:
    - Enter the text you want to encrypt in the first text box.
-   - Enter the secret key (default: `1234`).
+   - Enter the secret key (default: `6969`).
    - Click the "ENCRYPT" button to see the encoded message.
 
 3. **Decrypting Text**:
    - Enter the Base64 encoded text in the first text box.
-   - Enter the secret key (default: `1234`).
+   - Enter the secret key (default: `6969`).
    - Click the "DECRYPT" button to see the original message.
 
 4. **Resetting**:
